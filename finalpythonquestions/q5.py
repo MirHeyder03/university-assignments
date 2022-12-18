@@ -11,5 +11,3 @@ if reqem1 < reqem2 and reqem2 < reqem3 and reqem3 < reqem4 and reqem4 < reqem5:
     print('Rəqəmlər artan sırada düzülüb')
 else:
     print('Rəqəmlər artan sırada düzülməyib')
-
-print(eded//100)
