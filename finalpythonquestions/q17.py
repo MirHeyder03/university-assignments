@@ -1,0 +1,5 @@
+N = int(input("ededi daxil edin : "))
+N = list(map(int, str(N)))
+max = max(N)
+count = N.count(max)
+print("Ededdeki en boyuk reqem {} ve {} defe tekrarlanib".format(max, count))

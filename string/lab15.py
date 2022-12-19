@@ -3,4 +3,4 @@ Verilmiş sətirdə ardıcıl olaraq gələn beş dənə e simvolunun olub-olmad
 """
 
 string = input("string'i daxil edin : ")
-print("ardicil 5 e herfi gelirmi : ", 'eeeee' in string)
+print("ardicil 5 e herfi gelirmi : ?", 'eeeee' in string)
