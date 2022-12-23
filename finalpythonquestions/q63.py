@@ -2,9 +2,9 @@ string = input("string-i daxil edin : ")
 list = []
 count = 0
 for i in string:
-    if (not i.isalpha() and not i.isdigit()):
+    if i.isupper():
         list.append(i)
         count += 1
 
-print("Setirdeki reqem ve herf olmayan : ", list)
-print("sayi : ", count)
+print("Setirdeki boyuk herfler : ", list)
+print("Setirdeki boyuk herflerin sayi : ", count)
